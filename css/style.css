@@ -1,0 +1,51 @@
+body{
+  margin: 50px 30px 50px 30px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e8e8e8;
+  line-height: 1.6;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/*=========Информация+фото========*/
+
+.container_photo_info{
+  display: flex;
+}
+.container_title{
+  font-weight: bold;
+  font-size: 35pt;
+  text-align: center;
+  text-transform: capitalize;
+}
+.container_photo{
+  max-width: 350px;
+}
+.container_photo img{
+  width: 300px;
+}
+.container_info{
+  padding: 10px 20px 10px 20px;
+}
+.container_info a:hover {
+color: chocolate;
+}
+/*================================*/
+
+
+/*=========Образование+работа========*/
+
+span{
+  padding: 20px;
+  font-weight: bold;
+}
+table {
+  padding: 20px 10px 20px 10px;
+}
+td, th{
+  text-align: justify;
+  width: 400px;
+}
+/*===================================*/
